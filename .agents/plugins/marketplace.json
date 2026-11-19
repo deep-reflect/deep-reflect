@@ -1,0 +1,20 @@
+{
+  "name": "deep-reflect",
+  "interface": {
+    "displayName": "Deep Reflect"
+  },
+  "plugins": [
+    {
+      "name": "deep-reflect",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

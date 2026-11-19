@@ -1,0 +1,14 @@
+{
+  "name": "deep-reflect",
+  "description": "Deep Reflect plugins",
+  "owner": {
+    "name": "Deep Reflect"
+  },
+  "plugins": [
+    {
+      "name": "deep-reflect",
+      "source": "./plugins/claude-code",
+      "description": "Send Claude Code sessions to your Deep Reflect organization."
+    }
+  ]
+}

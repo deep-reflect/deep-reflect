@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "deep-reflect": {
+      "command": "deep-reflect",
+      "args": ["mcp"]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "deep-reflect",
+  "version": "0.1.0",
+  "description": "Send Codex sessions to your Deep Reflect organization.",
+  "author": {
+    "name": "Deep Reflect"
+  },
+  "interface": {
+    "displayName": "Deep Reflect for Codex",
+    "shortDescription": "Send Codex sessions to Deep Reflect.",
+    "longDescription": "Send Codex sessions to your Deep Reflect organization.",
+    "developerName": "Deep Reflect",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Help me configure Deep Reflect."
+  },
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "deep-reflect",
+  "version": "0.1.0",
+  "description": "Send Claude Code sessions to your Deep Reflect organization.",
+  "author": {
+    "name": "Deep Reflect"
+  }
+}

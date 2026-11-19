@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+# The caller supplies the harness name, followed by native hook arguments.
+if ! command -v deep-reflect >/dev/null 2>&1; then
+  printf '%s\n' '{"systemMessage":"Deep Reflect CLI is unavailable. Install deep-reflect and add it to the PATH used by your coding agent, then restart the agent."}'
+  exit 0
+fi
+
+exec deep-reflect hook "$@"

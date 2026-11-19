@@ -1,0 +1,52 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/run-hook\" codex",
+            "timeout": 30,
+            "commandWindows": "cmd.exe /d /s /c \"\"%CLAUDE_PLUGIN_ROOT%\\scripts\\run-hook.cmd\" codex\""
+          }
+        ]
+      }
+    ],
+    "Interrupt": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/run-hook\" codex",
+            "timeout": 3,
+            "commandWindows": "cmd.exe /d /s /c \"\"%CLAUDE_PLUGIN_ROOT%\\scripts\\run-hook.cmd\" codex\""
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/run-hook\" codex",
+            "timeout": 30,
+            "commandWindows": "cmd.exe /d /s /c \"\"%CLAUDE_PLUGIN_ROOT%\\scripts\\run-hook.cmd\" codex\""
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/run-hook\" codex",
+            "timeout": 3,
+            "commandWindows": "cmd.exe /d /s /c \"\"%CLAUDE_PLUGIN_ROOT%\\scripts\\run-hook.cmd\" codex\""
+          }
+        ]
+      }
+    ]
+  }
+}
